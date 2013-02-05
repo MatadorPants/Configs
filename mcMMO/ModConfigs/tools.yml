@@ -1,0 +1,472 @@
+#
+#  Settings for Axes
+###
+Axes:
+    Chainsaw:
+        ID: 30233
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Adv_Chainsaw:
+        ID: 30479
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    GreenAxe:
+        ID: 5280
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    RubyAxe:
+        ID: 5281
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999        
+    BlueAxe:
+        ID: 5282
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999        
+    SteelAxe:
+        ID: 7796
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999    
+    ThaumAxe:
+        ID: 25279
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    BronzeAxe:
+        ID: 30199
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+
+
+
+        
+#
+#  Settings for Bows
+###
+Bows:
+    Bow_1:
+        ID: 999
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Bow_2:
+        ID: 999
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+
+#
+#  Settings for Hoes
+###
+Hoes:
+    Hoe_1:
+        ID: 999
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Hoe_2:
+        ID: 999
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+
+#
+#  Settings for Pickaxes
+###
+Pickaxes:
+    Drill:
+        ID: 30235
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    D_Drill:
+        ID: 30234
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Adv_Drill:
+        ID: 30478
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    GreenSaph:
+        ID: 5323
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999        
+    Ruby:
+        ID: 5324
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Blue:
+        ID: 5325
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Steel:
+        ID: 7798
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Survival:
+        ID: 13281
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Thaum:
+        ID: 25278
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Ironwood:
+        ID: 27282
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Steelleaf:
+        ID: 27316
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Bronze:
+        ID: 30200
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999       
+#
+#  Settings for Shovels
+###
+Shovels:
+    Shovel_1:
+        ID: 999
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    GreenShovel:
+        ID: 5328
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    RedShovel:
+        ID: 5329
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    BlueShovel:
+        ID: 5330
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    SteelShovel:
+        ID: 7799
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    SurvivalShovel:
+        ID: 13282
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    ThaumShovel:
+        ID: 25277
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    IronwoodShov:
+        ID: 27285
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    SteelleafShov:
+        ID: 27318
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    BronzeShov:
+        ID: 30197
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+
+
+#
+#  Settings for Swords
+###
+Swords:
+    RedSword:
+        ID: 5340
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Greensword:
+        ID: 5339
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Bluesword:
+        ID: 5341
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Steelsword:
+        ID: 7800
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Vilesword:
+        ID: 8337
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Thaumsword:
+        ID: 25280
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    fierysword:
+        ID: 27273
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    ironwoodsword:
+        ID: 27286
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    steelleaf:
+        ID: 27319
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Bronzesword:
+        ID: 30198
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
