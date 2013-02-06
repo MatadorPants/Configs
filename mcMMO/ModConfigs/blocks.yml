@@ -373,7 +373,7 @@ Woodcutting:
     LeftCornerLog:
         ID: 1312
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -383,7 +383,7 @@ Woodcutting:
     RightCornerLog:
         ID: 1315
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -393,7 +393,7 @@ Woodcutting:
     BottomCornerLog:
         ID: 1314
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -403,7 +403,7 @@ Woodcutting:
     TopCornerLog:
         ID: 1313
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -413,7 +413,7 @@ Woodcutting:
     GreatWood:
         ID: 1611
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -423,7 +423,7 @@ Woodcutting:
     TwiliteWood:
         ID: 1507
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -433,7 +433,7 @@ Woodcutting:
     TimeWood:
         ID: 1511
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -443,7 +443,7 @@ Woodcutting:
     TeakWood:
         ID: 934
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -453,7 +453,7 @@ Woodcutting:
     ChestnutWood:
         ID: 935
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -463,7 +463,7 @@ Woodcutting:
     KapokWood:
         ID: 936
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -473,7 +473,7 @@ Woodcutting:
     WillowWood:
         ID: 937
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -483,7 +483,7 @@ Woodcutting:
     RP_RubberWood:
         ID: 212
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
@@ -493,7 +493,7 @@ Woodcutting:
     IC_RubberWood:
         ID: 627
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 70
         Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
