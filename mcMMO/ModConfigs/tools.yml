@@ -2,7 +2,7 @@
 #  Settings for Axes
 ###
 Axes:
-    Chainsaw:
+    IC_Chainsaw:
         ID: 30233
         XP_Modifer: 1.0
         Ability_Enabled: true
@@ -12,7 +12,7 @@ Axes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Adv_Chainsaw:
+    IC_Adv_Chainsaw:
         ID: 30479
         XP_Modifer: 1.0
         Ability_Enabled: true
@@ -64,6 +64,16 @@ Axes:
         Durability: 9999    
     ThaumAxe:
         ID: 25279
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    TC_AxeOfTheStream:
+        ID: 25299
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
@@ -135,12 +145,12 @@ Hoes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-
+    
 #
 #  Settings for Pickaxes
 ###
 Pickaxes:
-    Drill:
+    IC_Drill:
         ID: 30235
         XP_Modifer: 0.9
         Ability_Enabled: true
@@ -150,7 +160,7 @@ Pickaxes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    D_Drill:
+    IC_D_Drill:
         ID: 30234
         XP_Modifer: 0.9
         Ability_Enabled: true
@@ -160,7 +170,7 @@ Pickaxes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Adv_Drill:
+    IC_Adv_Drill:
         ID: 30478
         XP_Modifer: 0.9
         Ability_Enabled: true
@@ -230,6 +240,16 @@ Pickaxes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
+    TC_PickAxeOfTheCore:
+        ID: 25298
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Ironwood:
         ID: 27282
         XP_Modifer: 1.0
@@ -264,6 +284,36 @@ Pickaxes:
 #  Settings for Shovels
 ###
 Shovels:
+    IC_Drill:
+        ID: 30235
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    IC_D_Drill:
+        ID: 30234
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    IC_Adv_Drill:
+        ID: 30478
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Shovel_1:
         ID: 999
         XP_Modifer: 1.0
@@ -334,6 +384,16 @@ Shovels:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
+    TC_ShovelOfTheEarthmover:
+        ID: 25297
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     IronwoodShov:
         ID: 27285
         XP_Modifer: 1.0
@@ -364,8 +424,36 @@ Shovels:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-
-
+    IC_IronJackHammer:
+        ID: 21295
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    IC_SteelJackHammer:
+        ID: 21297
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    IC_DiamondJackHammer:
+        ID: 21298
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
 #
 #  Settings for Swords
 ###
@@ -430,6 +518,16 @@ Swords:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
+    TC_SwordOfTheZephyr:
+        ID: 25296
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     fierysword:
         ID: 27273
         XP_Modifer: 1.0
@@ -462,6 +560,16 @@ Swords:
         Durability: 9999
     Bronzesword:
         ID: 30198
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    IC_NanoSaber:
+        ID: 30148
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
