@@ -4,7 +4,7 @@
 Axes:
     IC_Chainsaw:
         ID: 30233
-        XP_Modifer: 1.0
+        XP_Modifer: 0.9
         Ability_Enabled: true
         Tier: 1
         Repairable: false
@@ -14,7 +14,7 @@ Axes:
         Durability: 9999
     IC_Adv_Chainsaw:
         ID: 30479
-        XP_Modifer: 1.0
+        XP_Modifer: 0.9
         Ability_Enabled: true
         Tier: 1
         Repairable: false
@@ -528,7 +528,7 @@ Swords:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    fierysword:
+    FierySword:
         ID: 27273
         XP_Modifer: 1.0
         Ability_Enabled: true
@@ -538,7 +538,7 @@ Swords:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    ironwoodsword:
+    IronWoodSword:
         ID: 27286
         XP_Modifer: 1.0
         Ability_Enabled: true
@@ -548,7 +548,7 @@ Swords:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    steelleaf:
+    SteelLeaf:
         ID: 27319
         XP_Modifer: 1.0
         Ability_Enabled: true
@@ -558,7 +558,7 @@ Swords:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Bronzesword:
+    BronzeSword:
         ID: 30198
         XP_Modifer: 1.0
         Ability_Enabled: true
