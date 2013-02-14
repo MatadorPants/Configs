@@ -145,7 +145,16 @@ Hoes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    
+    GT_Vajra:
+        ID: 30477
+        XP_Modifer: 0.1
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
 #
 #  Settings for Pickaxes
 ###
@@ -279,7 +288,17 @@ Pickaxes:
         Repair_Material_ID: 99
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
-        Durability: 9999       
+        Durability: 9999      
+    GT_Vajra:
+        ID: 30477
+        XP_Modifer: 0.1
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
 #
 #  Settings for Shovels
 ###
@@ -447,6 +466,16 @@ Shovels:
     IC_DiamondJackHammer:
         ID: 21298
         XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    GT_Vajra:
+        ID: 30477
+        XP_Modifer: 0.1
         Ability_Enabled: true
         Tier: 1
         Repairable: false
