@@ -48,6 +48,17 @@ Herbalism:
 #  Settings for Custom Mining Blocks
 ###
 Mining:
+    AE_Quartz_Crystal:
+        ID: 2512
+        Data_Value: 0
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 4462
+        Drop_Item_Data_Value: 6
+        Min_Drop_Item_Amount: 0
+        Max_Drop_Item_Amount: 1
     TC_Cinnabar:
         ID: 200
         Data_Value: 0
