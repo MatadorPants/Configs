@@ -2,17 +2,17 @@
 #  Settings for Custom Excavation Blocks
 ###
 Excavation:
-    OilSands:
-        ID: 247
+    Gravel_Ore:
+        ID: 14885
         Data_Value: 0
-        XP_Gain: 40
+        XP_Gain: 99
         Drop_Item: false
         Drop_Item_ID: 999
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Block_2:
-        ID: 999
+    Gravel_Black_White_stone:
+        ID:  3134
         Data_Value: 0
         XP_Gain: 99
         Drop_Item: false
@@ -34,8 +34,26 @@ Herbalism:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Block_2:
-        ID: 999
+    Barley:
+        ID: 12659
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: true
+        Drop_Item_ID: 12660
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Cotton:
+        ID: 12659
+        Data_Value: 1
+        XP_Gain: 99
+        Drop_Item: true
+        Drop_Item_ID: 12660
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    IC_Crops:
+        ID: 30126
         Data_Value: 0
         XP_Gain: 99
         Drop_Item: false
@@ -43,24 +61,45 @@ Herbalism:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-
 #
 #  Settings for Custom Mining Blocks
 ###
 Mining:
+    Tinker_Nether:
+        ID: 1475
+        Data_Value: 0
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 4362
+        Drop_Item_Data_Value: 6
+        Min_Drop_Item_Amount: 0
+        Max_Drop_Item_Amount: 1
+    F_Silver:
+        ID: 1002
+        Data_Value: 0
+        XP_Gain: 50
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 4362
+        Drop_Item_Data_Value: 6
+        Min_Drop_Item_Amount: 0
+        Max_Drop_Item_Amount: 1
     AE_Quartz_Crystal:
-        ID: 2512
+        ID: 902
         Data_Value: 0
         XP_Gain: 100
         Is_Ore: true
         Tier: 1
         Drop_Item: true
-        Drop_Item_ID: 4462
+        Drop_Item_ID: 4362
         Drop_Item_Data_Value: 6
         Min_Drop_Item_Amount: 0
         Max_Drop_Item_Amount: 1
     TC_Cinnabar:
-        ID: 200
+        ID: 2402
         Data_Value: 0
         XP_Gain: 100
         Is_Ore: true
@@ -71,7 +110,7 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
     TC_AirShard:
-        ID: 200
+        ID: 2402
         Data_Value: 1
         XP_Gain: 85
         Is_Ore: true
@@ -82,7 +121,7 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3
     TC_FireShard:
-        ID: 200
+        ID: 2402
         Data_Value: 2
         XP_Gain: 85
         Is_Ore: true
@@ -93,7 +132,7 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3
     TC_WaterShard:
-        ID: 200
+        ID: 2402
         Data_Value: 3
         XP_Gain: 85
         Is_Ore: true
@@ -104,7 +143,7 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3
     TC_EarthShard:
-        ID: 200
+        ID: 2402
         Data_Value: 4
         XP_Gain: 85
         Is_Ore: true
@@ -115,7 +154,7 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3        
     TC_VisShard:
-        ID: 200
+        ID: 2402
         Data_Value: 5
         XP_Gain: 85
         Is_Ore: true
@@ -126,7 +165,7 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3        
     TC_Dull:
-        ID: 200
+        ID: 2402
         Data_Value: 6
         XP_Gain: 50
         Is_Ore: true
@@ -137,7 +176,7 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3        
     TC_Amber:
-        ID: 200
+        ID: 2402
         Data_Value: 7
         XP_Gain: 85
         Is_Ore: true
@@ -147,107 +186,52 @@ Mining:
         Drop_Item_Data_Value: 6
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    RP_Ruby:
-        ID: 213
-        Data_Value: 0
-        XP_Gain: 85
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: true
-        Drop_Item_ID: 5267
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    XC_Blue:
-        ID: 220
-        Data_Value: 0
-        XP_Gain: 85
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: true
-        Drop_Item_ID: 24256
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 3        
-    XC_Green:
-        ID: 220
-        Data_Value: 1
-        XP_Gain: 85
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: true
-        Drop_Item_ID: 24257
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 3  
-    XC_Red:
-        ID: 220
-        Data_Value: 2
-        XP_Gain: 85
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: true
-        Drop_Item_ID: 24258
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 3  
-    XC_Black:
-        ID: 220
+    GT_Ruby:
+        ID: 4060
         Data_Value: 3
         XP_Gain: 85
         Is_Ore: true
         Tier: 1
         Drop_Item: true
-        Drop_Item_ID: 24259
-        Drop_Item_Data_Value: 0
+        Drop_Item_ID: 21256
+        Drop_Item_Data_Value: 32
         Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 3  
-    XC_White:
-        ID: 220
+        Max_Drop_Item_Amount: 1
+    GT_Sapphire:
+        ID: 4060
         Data_Value: 4
         XP_Gain: 85
         Is_Ore: true
         Tier: 1
         Drop_Item: true
-        Drop_Item_ID: 24260
-        Drop_Item_Data_Value: 0
+        Drop_Item_ID: 21256
+        Drop_Item_Data_Value: 33
         Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 3  
-    XC_Alum:
-        ID: 220
-        Data_Value: 5
-        XP_Gain: 85
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 25264
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 3  
+        Max_Drop_Item_Amount: 3 
     RC_Sulfur:
-        ID: 244
+        ID: 458
         Data_Value: 0
         XP_Gain: 85
         Is_Ore: true
         Tier: 1
         Drop_Item: true
-        Drop_Item_ID: 7756
-        Drop_Item_Data_Value: 1
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 8
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3  
     RC_Saltpeter:
-        ID: 244
+        ID: 458
         Data_Value: 1
         XP_Gain: 85
         Is_Ore: true
         Tier: 1
         Drop_Item: true
-        Drop_Item_ID: 7756
-        Drop_Item_Data_Value: 2
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 9
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3
     IC_Uranium:
-        ID: 245
+        ID: 247
         Data_Value: 0
         XP_Gain: 85
         Is_Ore: true
@@ -301,19 +285,8 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    CrudeOil:
-        ID: 246
-        Data_Value: 0
-        XP_Gain: 35
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 30243
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
     GT_Bauxite:
-        ID: 703
+        ID: 4060
         Data_Value: 5
         XP_Gain: 80
         Is_Ore: true
@@ -334,17 +307,105 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    IC_Uranium:
-        ID: 245
-        Data_Value: 0
+    Ferrous:
+        ID: 2001
+        Data_Value: 4
         XP_Gain: 85
         Is_Ore: true
         Tier: 1
-        Drop_Item: true
+        Drop_Item: false
         Drop_Item_ID: 30243
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+    Aluminum:
+        ID: 1475
+        Data_Value: 5
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 30243
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pyrite:
+        ID: 4060
+        Data_Value: 6
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 3
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 2
+    Cinnabar_Nether:
+        ID: 4060
+        Data_Value: 7
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 11
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 2
+    Sphalerite:
+        ID: 4060
+        Data_Value: 8
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 14
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 2
+    Tungstate:
+        ID: 4060
+        Data_Value: 9
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 3
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 2
+    Sheldonite:
+        ID: 4060
+        Data_Value: 10
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 3
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 2
+    Olivine:
+        ID: 4060
+        Data_Value: 11
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21256
+        Drop_Item_Data_Value: 37
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 2
+    Sodalite:
+        ID: 4060
+        Data_Value: 12
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 5
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 2
 
         
 #
@@ -371,8 +432,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Fir:
-        ID: 1303
+    ID_1388:
+        ID: 1388
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -381,8 +442,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    LeftCornerLog:
-        ID: 1312
+    ID_1389:
+        ID: 1389
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -391,8 +452,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    RightCornerLog:
-        ID: 1315
+    ID_1390:
+        ID: 1390
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -401,8 +462,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    BottomCornerLog:
-        ID: 1314
+    ID_1391:
+        ID: 1391
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -411,8 +472,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    TopCornerLog:
-        ID: 1313
+    ID_1411:
+        ID: 1411
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -421,8 +482,18 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    GreatWood:
-        ID: 1611
+    ID_1412:
+        ID: 1412
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    ID_1413:
+        ID: 1413
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -432,7 +503,7 @@ Woodcutting:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
     TwiliteWood:
-        ID: 1507
+        ID: 2163
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -442,7 +513,7 @@ Woodcutting:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
     TimeWood:
-        ID: 1511
+        ID: 2176
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -451,8 +522,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    TeakWood:
-        ID: 934
+    Timewood_clock:
+        ID: 2179
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -461,8 +532,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    ChestnutWood:
-        ID: 935
+    TC_Wood:
+        ID: 2404
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -471,8 +542,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    KapokWood:
-        ID: 936
+    RubberWood:
+        ID: 3122
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -481,8 +552,8 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    WillowWood:
-        ID: 937
+    Eucalyptus:
+        ID: 3251
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -491,8 +562,28 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    RP_RubberWood:
-        ID: 212
+    Bloodwood:
+        ID: 3263
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Darkwood:
+        ID: 3271
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Maple:
+        ID: 3277
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
@@ -502,7 +593,7 @@ Woodcutting:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
     IC_RubberWood:
-        ID: 627
+        ID: 243
         Data_Value: 0
         XP_Gain: 70
         Is_Log: true
