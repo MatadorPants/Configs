@@ -2,6 +2,46 @@
 #  Settings for Axes
 ###
 Axes:
+    Fusewood_Hatchet:
+        ID: 12693
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999    
+    Bloodwood_Hatchet:
+        ID: 12685
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Ghostwood_Hatchet:
+        ID: 12681
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999   
+    Quartz_Hatchet:
+        ID: 12697
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 155
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999   
     IC_Chainsaw:
         ID: 30233
         XP_Modifer: 0.9
@@ -12,18 +52,8 @@ Axes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    IC_Adv_Chainsaw:
-        ID: 30479
-        XP_Modifer: 0.9
-        Ability_Enabled: true
-        Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
-        Repair_Material_Data_Value: 0
-        Repair_Material_Quantity: 9
-        Durability: 9999
-    GreenAxe:
-        ID: 5280
+    Tinker_Hatchet:
+        ID: 14309
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
@@ -32,26 +62,6 @@ Axes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    RubyAxe:
-        ID: 5281
-        XP_Modifer: 1.0
-        Ability_Enabled: true
-        Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
-        Repair_Material_Data_Value: 0
-        Repair_Material_Quantity: 9
-        Durability: 9999        
-    BlueAxe:
-        ID: 5282
-        XP_Modifer: 1.0
-        Ability_Enabled: true
-        Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
-        Repair_Material_Data_Value: 0
-        Repair_Material_Quantity: 9
-        Durability: 9999        
     SteelAxe:
         ID: 7796
         XP_Modifer: 1.0
@@ -92,31 +102,69 @@ Axes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-
-
+    BronzeAxe:
+        ID: 10264
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 10258
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Mattock:
+        ID: 14316
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 10258
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
 
         
 #
 #  Settings for Bows
 ###
 Bows:
-    Bow_1:
-        ID: 999
+    Ghostwood_Bow:
+        ID: 12705
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
         Repairable: true
-        Repair_Material_ID: 99
+        Repair_Material_ID: 12677
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Bow_2:
-        ID: 999
+    Bloodwood_Bow:
+        ID: 12706
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
         Repairable: true
-        Repair_Material_ID: 99
+        Repair_Material_ID: 12677
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Darkwood_Bow:
+        ID: 12707
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 12677
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Fusewood_Bow:
+        ID: 12708
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 12677
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
@@ -125,26 +173,39 @@ Bows:
 #  Settings for Hoes
 ###
 Hoes:
-    Hoe_1:
-        ID: 999
+    Steel_Hoe:
+        ID: 7817
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
         Repairable: true
-        Repair_Material_ID: 99
+        Repair_Material_ID: 14276
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Hoe_2:
-        ID: 999
+    
+    Quartz_Hoe:
+        ID: 4366
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
         Repairable: true
-        Repair_Material_ID: 99
+        Repair_Material_ID: 406
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
+            
+    Bronze_Hoe:
+        ID: 30196
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 14276
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+        
     GT_Vajra:
         ID: 30477
         XP_Modifer: 0.1
@@ -152,6 +213,17 @@ Hoes:
         Tier: 1
         Repairable: false
         Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+            
+    Reversing_Hoe:
+        ID: 10265
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 10258
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
@@ -179,8 +251,8 @@ Pickaxes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    IC_Adv_Drill:
-        ID: 30478
+    Tinker_Axe:
+        ID: 14307
         XP_Modifer: 0.9
         Ability_Enabled: true
         Tier: 1
@@ -189,33 +261,63 @@ Pickaxes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    GreenSaph:
-        ID: 5323
+    Destruction_Pickaxe:
+        ID: 10263
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
+        Repairable: true
+        Repair_Material_ID: 10258
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999        
-    Ruby:
-        ID: 5324
+    Ghostwood_Pickaxe:
+        ID: 12679
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
+        Repairable: true
+        Repair_Material_ID: 3262
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Blue:
+    Bloodwood_Pickaxe:
         ID: 5325
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Darkwood_Pickaxe:
+        ID: 5325
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Fusewood_Pickaxe:
+        ID: 5325
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Quartz_Pickaxe:
+        ID: 5325
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 155
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
@@ -303,6 +405,16 @@ Pickaxes:
 #  Settings for Shovels
 ###
 Shovels:
+    Mattock:
+        ID: 14316
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 10258
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     IC_Drill:
         ID: 30235
         XP_Modifer: 0.9
@@ -323,9 +435,19 @@ Shovels:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    IC_Adv_Drill:
-        ID: 30478
+    Erosion_Shovel:
+        ID: 10262
         XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 10258
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Tinker_Shovel:
+        ID: 14308
+        XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
         Repairable: false
@@ -333,43 +455,33 @@ Shovels:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Shovel_1:
-        ID: 999
+    Ghostwood_Shovel:
+        ID: 12680
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
         Repairable: true
-        Repair_Material_ID: 99
+        Repair_Material_ID: 3262
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    GreenShovel:
-        ID: 5328
+    Bloodwood_Shovel:
+        ID: 12684
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
+        Repairable: true
+        Repair_Material_ID: 3262
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    RedShovel:
-        ID: 5329
+    Darkwood_Shovel:
+        ID: 12688
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
-        Repair_Material_Data_Value: 0
-        Repair_Material_Quantity: 9
-        Durability: 9999
-    BlueShovel:
-        ID: 5330
-        XP_Modifer: 1.0
-        Ability_Enabled: true
-        Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
+        Repairable: true
+        Repair_Material_ID: 3262
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
@@ -483,37 +595,97 @@ Shovels:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
+    Fusewood_Shovel:
+        ID: 12692
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Quartz_Shovel:
+        ID: 12696
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 155
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
 #
 #  Settings for Swords
 ###
 Swords:
-    RedSword:
-        ID: 5340
+    Quartz:
+        ID: 4369
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
+        Repairable: true
+        Repair_Material_ID:406
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Greensword:
-        ID: 5339
+    Etheric:
+        ID: 10261
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
+        Repairable: true
+        Repair_Material_ID: 10258
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Bluesword:
-        ID: 5341
+    Ghostwood:
+        ID: 12678
         XP_Modifer: 1.0
         Ability_Enabled: true
         Tier: 1
-        Repairable: false
-        Repair_Material_ID: 99
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Bloodwood:
+        ID: 12682
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Darkwood:
+        ID: 12686
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Fusewood:
+        ID: 12690
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Quartz_2:
+        ID: 12694
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: true
+        Repair_Material_ID: 155
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
@@ -604,6 +776,46 @@ Swords:
         Tier: 1
         Repairable: false
         Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Tinker_Long:
+        ID: 14312
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Tinker_Broad:
+        ID: 14311
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    TC_Sword_of_the_Condor:
+        ID: 21417
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Tinker_Rapier:
+        ID: 14313
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 3262
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
