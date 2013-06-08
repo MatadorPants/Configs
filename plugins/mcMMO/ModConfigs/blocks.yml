@@ -5,7 +5,7 @@ Excavation:
     Gravel_Ore:
         ID: 14885
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 20
         Drop_Item: false
         Drop_Item_ID: 999
         Drop_Item_Data_Value: 0
@@ -14,7 +14,7 @@ Excavation:
     Gravel_Black_White_stone:
         ID:  3134
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 20
         Drop_Item: false
         Drop_Item_ID: 999
         Drop_Item_Data_Value: 0
@@ -37,7 +37,7 @@ Herbalism:
     Barley:
         ID: 12659
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 20
         Drop_Item: true
         Drop_Item_ID: 12660
         Drop_Item_Data_Value: 0
@@ -46,7 +46,7 @@ Herbalism:
     Cotton:
         ID: 12659
         Data_Value: 1
-        XP_Gain: 99
+        XP_Gain: 20
         Drop_Item: true
         Drop_Item_ID: 12660
         Drop_Item_Data_Value: 0
@@ -55,7 +55,7 @@ Herbalism:
     IC_Crops:
         ID: 30126
         Data_Value: 0
-        XP_Gain: 99
+        XP_Gain: 20
         Drop_Item: false
         Drop_Item_ID: 999
         Drop_Item_Data_Value: 0
@@ -68,7 +68,7 @@ Mining:
     Tinker_Nether:
         ID: 1475
         Data_Value: 0
-        XP_Gain: 100
+        XP_Gain: 75
         Is_Ore: true
         Tier: 1
         Drop_Item: false
@@ -83,17 +83,6 @@ Mining:
         Is_Ore: true
         Tier: 1
         Drop_Item: false
-        Drop_Item_ID: 4362
-        Drop_Item_Data_Value: 6
-        Min_Drop_Item_Amount: 0
-        Max_Drop_Item_Amount: 1
-    AE_Quartz_Crystal:
-        ID: 902
-        Data_Value: 0
-        XP_Gain: 100
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: true
         Drop_Item_ID: 4362
         Drop_Item_Data_Value: 6
         Min_Drop_Item_Amount: 0
