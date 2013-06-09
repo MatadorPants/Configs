@@ -441,7 +441,7 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    ID_1388:
+    F_Larch:
         ID: 1388
         Data_Value: 0
         XP_Gain: 70
@@ -451,7 +451,37 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    ID_1389:
+    F_Teak:
+        ID: 1388
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 1303
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Acacia:
+        ID: 1388
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 1303
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Lime:
+        ID: 1388
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 1303
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Chestnut:
         ID: 1389
         Data_Value: 0
         XP_Gain: 70
@@ -461,7 +491,37 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    ID_1390:
+    F_Wenge:
+        ID: 1389
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Baobab:
+        ID: 1389
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Sequoia:
+        ID: 1389
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Kapok:
         ID: 1390
         Data_Value: 0
         XP_Gain: 70
@@ -471,7 +531,37 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    ID_1391:
+    F_Ebony:
+        ID: 1390
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Mahogany:
+        ID: 1390
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Balsa:
+        ID: 1390
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Willow:
         ID: 1391
         Data_Value: 0
         XP_Gain: 70
@@ -481,7 +571,37 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    ID_1411:
+    F_Walnut:
+        ID: 1391
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Greatheart:
+        ID: 1391
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Cherry:
+        ID: 1391
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Mahoe:
         ID: 1411
         Data_Value: 0
         XP_Gain: 70
@@ -491,7 +611,37 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    ID_1412:
+    F_Poplar:
+        ID: 1411
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Palm:
+        ID: 1411
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Papaya:
+        ID: 1411
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Pine:
         ID: 1412
         Data_Value: 0
         XP_Gain: 70
@@ -501,7 +651,37 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    ID_1413:
+    F_Plum:
+        ID: 1412
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Maple:
+        ID: 1412
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_Citrus:
+        ID: 1412
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    F_wood24:
         ID: 1413
         Data_Value: 0
         XP_Gain: 70
@@ -511,7 +691,47 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    TwiliteWood:
+    F_Larch:
+        ID: 1413
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    TF_TwiliteOak:
+        ID: 2163
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    TF_CanopyTree:
+        ID: 2163
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    TF_Mangrove:
+        ID: 2163
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    TF_Darkwood:
         ID: 2163
         Data_Value: 0
         XP_Gain: 70
@@ -591,9 +811,49 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+    Fusewood:
+        ID: 3271
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
     Maple:
         ID: 3277
         Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Silverbell:
+        ID: 3277
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Amaranth:
+        ID: 3277
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Tiger:
+        ID: 3277
+        Data_Value: 3
         XP_Gain: 70
         Is_Log: true
         Drop_Item: false
