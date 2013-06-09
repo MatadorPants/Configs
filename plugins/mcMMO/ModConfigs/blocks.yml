@@ -11,9 +11,18 @@ Excavation:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Gravel_Black_White_stone:
+    Gravel_Black_stone:
         ID:  3134
-        Data_Value: 0
+        Data_Value: 8
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Gravel_White_stone:
+        ID:  3134
+        Data_Value: 9
         XP_Gain: 20
         Drop_Item: false
         Drop_Item_ID: 999
