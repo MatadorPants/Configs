@@ -395,6 +395,17 @@ Mining:
         Drop_Item_Data_Value: 5
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 2
+    Galena:
+        ID: 4060
+        Data_Value: 1
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 21257
+        Drop_Item_Data_Value: 5
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 2
 
         
 #
