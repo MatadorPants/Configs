@@ -183,14 +183,6 @@ Double_Drops:
         Carrot: true
         Potato: true
     Mining:
-        : true
-            : true
-                : true
-                    : true
-                        : true
-        : true
-        F_Silver: true
-        Tinker_Nether: true
         Coal: true
         Diamond: true
         End_Stone: true
