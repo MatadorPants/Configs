@@ -611,7 +611,7 @@ Swords:
         Ability_Enabled: true
         Tier: 1
         Repairable: false
-        Repair_Material_ID:406
+        Repair_Material_ID: 406
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
