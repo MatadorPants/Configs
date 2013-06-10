@@ -167,6 +167,9 @@ Skills:
 ###
 Double_Drops:
     Herbalism:
+        Barley: true
+        Cotton: true
+        IC_Crops: true
         Brown_Mushrooms: true
         Cacti: true
         Melons: true
@@ -183,12 +186,35 @@ Double_Drops:
         Carrot: true
         Potato: true
     Mining:
-        : true
-            : true
-                : true
-                    : true
-                        : true
-        : true
+        GT_Bauxite: true
+        Galena: true
+        TE_Silver: true
+        TE_Tin: true
+        TE_Lead: true
+        TE_Copper: true
+        IC_Uranium: true
+        Sphalerite: true
+        Cinnabar_Nether: true
+        Pyrite: true
+        Aluminum: true
+        Ferrous: true
+        MFFS_Monazit: true
+        Olivine: true
+        Sheldonite: true
+        Tungstate: true
+        Sodalite: true
+        RC_Saltpeter: true
+        RC_Sulfur: true
+        GT_Sapphire: true
+        GT_Ruby: true
+        TC_Amber: true
+        TC_Dull: true
+        TC_VisShard: true
+        TC_EarthShard: true
+        TC_WaterShard: true
+        TC_FireShard: true
+        TC_AirShard: true
+        TC_Cinnabar: true
         F_Silver: true
         Tinker_Nether: true
         Coal: true
@@ -210,6 +236,49 @@ Double_Drops:
         Birch: true
         Spruce: true
         Jungle: true
+        F_Larch: true
+        F_Teak: true
+        F_Acacia: true
+        F_Lime: true
+        F_Chestnut: true
+        F_Wenge: true
+        F_Baobab: true
+        F_Sequoia: true
+        F_Kapok: true
+        F_Ebony: true
+        F_Mahogany: true
+        F_Balsa: true
+        F_Willow: true
+        F_Walnut: true
+        F_Greatheart: true
+        F_Cherry: true
+        F_Mahoe: true
+        F_Poplar: true
+        F_Palm: true
+        F_Papaya: true
+        F_Pine: true
+        F_Plum: true
+        F_Maple: true
+        F_Citrus: true
+        F_wood24: true
+        F_Larch: true
+        TF_TwiliteOak: true
+        TF_CanopyTree: true
+        TF_Mangrove: true
+        TF_Darkwood: true
+        TimeWood: true
+        Timewood_clock: true
+        TC_Wood: true
+        RubberWood: true
+        Eucalyptus: true
+        Bloodwood: true
+        Darkwood: true
+        Fusewood: true
+        Silverbell: true
+        Maple: true
+        Amaranth: true
+        Tiger: true
+        IC_RubberWood: true
 
 #
 #  Settings for XP distribution
