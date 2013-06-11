@@ -74,9 +74,20 @@ Herbalism:
 #  Settings for Custom Mining Blocks
 ###
 Mining:
-    Tinker_Nether:
+    Tinker_Cobalt:
         ID: 1475
-        Data_Value: 0
+        Data_Value: 1
+        XP_Gain: 75
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 4362
+        Drop_Item_Data_Value: 6
+        Min_Drop_Item_Amount: 0
+        Max_Drop_Item_Amount: 1
+    Tinker_Ardite:
+        ID: 1475
+        Data_Value: 2
         XP_Gain: 75
         Is_Ore: true
         Tier: 1
