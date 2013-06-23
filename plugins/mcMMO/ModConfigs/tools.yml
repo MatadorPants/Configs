@@ -219,7 +219,7 @@ Hoes:
 Pickaxes:
     Tinker_Hammer:
         ID: 14326
-        XP_Modifer: 0.9
+        XP_Modifer: 0.1
         Ability_Enabled: true
         Tier: 1
         Repairable: false
