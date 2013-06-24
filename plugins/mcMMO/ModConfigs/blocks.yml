@@ -453,9 +453,29 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Block_2:
-        ID: 999
+    Redwood_Bark:
+        ID: 3261
         Data_Value: 0
+        XP_Gain: 99
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Redwood_Heart:
+        ID: 3261
+        Data_Value: 1
+        XP_Gain: 99
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Redwood_Root:
+        ID: 3261
+        Data_Value: 2
         XP_Gain: 99
         Is_Log: true
         Drop_Item: false
