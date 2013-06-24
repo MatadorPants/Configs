@@ -2,6 +2,26 @@
 #  Settings for Axes
 ###
 Axes:
+    Tinker_Lumber:
+        ID: 14317
+        XP_Modifer: 0.1
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Tinker_Battleaxe:
+        ID: 14327
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Fusewood_Hatchet:
         ID: 12693
         XP_Modifer: 1.0
@@ -11,7 +31,7 @@ Axes:
         Repair_Material_ID: 3262
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
-        Durability: 9999    
+        Durability: 9999
     Bloodwood_Hatchet:
         ID: 12685
         XP_Modifer: 1.0
@@ -401,7 +421,17 @@ Pickaxes:
 #  Settings for Shovels
 ###
 Shovels:
-    Mattock:
+    Tinker_Excavator:
+        ID: 14325
+        XP_Modifer: 0.1
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 10258
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Tinker_Mattock:
         ID: 14316
         XP_Modifer: 1.0
         Ability_Enabled: true
@@ -615,6 +645,16 @@ Shovels:
 #  Settings for Swords
 ###
 Swords:
+    Tinker_Cleaver:
+        ID: 14324
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 406
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Quartz:
         ID: 4369
         XP_Modifer: 1.0
