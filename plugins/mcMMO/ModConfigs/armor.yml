@@ -9,12 +9,40 @@ Boots:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
-    Boot_2:
-        ID: 999
+    Invar:
+        ID: 20263
         Repairable: true
-        Repair_Material_ID: 99
+        Repair_Material_ID: 21256
+        Repair_Material_Data_Value: 73
+        Repair_Material_Quantity: 4
+        Durability: 9999
+    Muddy:
+        ID: 21324
+        Repairable: true
+        Repair_Material_ID: 21267
         Repair_Material_Data_Value: 0
-        Repair_Material_Quantity: 9
+        Repair_Material_Quantity: 4
+        Durability: 9999
+    Amethyst:
+        ID: 21333
+        Repairable: true
+        Repair_Material_ID: 21266
+        Repair_Material_Data_Value: 2
+        Repair_Material_Quantity: 4
+        Durability: 9999
+    Thaumium:
+        ID: 25276
+        Repairable: true
+        Repair_Material_ID: 25263
+        Repair_Material_Data_Value: 2
+        Repair_Material_Quantity: 4
+        Durability: 9999
+    Bronze:
+        ID: 30192
+        Repairable: true
+        Repair_Material_ID: 21256
+        Repair_Material_Data_Value: 70
+        Repair_Material_Quantity: 4
         Durability: 9999
 
 #
@@ -35,6 +63,41 @@ Chestplates:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
+    Invar:
+        ID: 20261
+        Repairable: true
+        Repair_Material_ID: 21256
+        Repair_Material_Data_Value: 73
+        Repair_Material_Quantity: 8
+        Durability: 9999
+    Muddy:
+        ID: 21322
+        Repairable: true
+        Repair_Material_ID: 21267
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 8
+        Durability: 9999
+    Amethyst:
+        ID: 21331
+        Repairable: true
+        Repair_Material_ID: 21266
+        Repair_Material_Data_Value: 2
+        Repair_Material_Quantity: 8
+        Durability: 9999
+    Thaumium:
+        ID: 25274
+        Repairable: true
+        Repair_Material_ID: 25263
+        Repair_Material_Data_Value: 2
+        Repair_Material_Quantity: 8
+        Durability: 9999
+    Bronze:
+        ID: 30194
+        Repairable: true
+        Repair_Material_ID: 21256
+        Repair_Material_Data_Value: 70
+        Repair_Material_Quantity: 8
+        Durability: 9999
 
 #
 #  Settings for Helmets
@@ -54,6 +117,41 @@ Helmets:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
+    Invar:
+        ID: 20260
+        Repairable: true
+        Repair_Material_ID: 21256
+        Repair_Material_Data_Value: 73
+        Repair_Material_Quantity: 7
+        Durability: 9999
+    Muddy:
+        ID: 21321
+        Repairable: true
+        Repair_Material_ID: 21267
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 5
+        Durability: 9999
+    Amethyst:
+        ID: 21330
+        Repairable: true
+        Repair_Material_ID: 21266
+        Repair_Material_Data_Value: 2
+        Repair_Material_Quantity: 5
+        Durability: 9999
+    Thaumium:
+        ID: 25273
+        Repairable: true
+        Repair_Material_ID: 25263
+        Repair_Material_Data_Value: 2
+        Repair_Material_Quantity: 5
+        Durability: 9999
+    Bronze:
+        ID: 30195
+        Repairable: true
+        Repair_Material_ID: 21256
+        Repair_Material_Data_Value: 70
+        Repair_Material_Quantity: 5
+        Durability: 9999
 
 #
 #  Settings for Leggings
@@ -71,5 +169,40 @@ Leggings:
         Repairable: true
         Repair_Material_ID: 99
         Repair_Material_Data_Value: 0
-        Repair_Material_Quantity: 9
+        Repair_Material_Quantity: 7
+        Durability: 9999
+    Invar:
+        ID: 20262
+        Repairable: true
+        Repair_Material_ID: 21256
+        Repair_Material_Data_Value: 73
+        Repair_Material_Quantity: 7
+        Durability: 9999
+    Muddy:
+        ID: 21323
+        Repairable: true
+        Repair_Material_ID: 21267
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 7
+        Durability: 9999
+    Amethyst:
+        ID: 21332
+        Repairable: true
+        Repair_Material_ID: 21266
+        Repair_Material_Data_Value: 2
+        Repair_Material_Quantity: 7
+        Durability: 9999
+    Thaumium:
+        ID: 25275
+        Repairable: true
+        Repair_Material_ID: 25263
+        Repair_Material_Data_Value: 2
+        Repair_Material_Quantity: 7
+        Durability: 9999
+    Bronze:
+        ID: 30193
+        Repairable: true
+        Repair_Material_ID: 21256
+        Repair_Material_Data_Value: 70
+        Repair_Material_Quantity: 7
         Durability: 9999
