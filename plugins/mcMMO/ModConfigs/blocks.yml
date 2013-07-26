@@ -2,8 +2,53 @@
 #  Settings for Custom Excavation Blocks
 ###
 Excavation:
-    Gravel_Ore:
-        ID: 14885
+    Iron_Gravel_Ore:
+        ID: 1488
+        Data_Value: 0
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Gold_Gravel_Ore:
+        ID: 1488
+        Data_Value: 0
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Copper_Gravel_Ore:
+        ID: 1488
+        Data_Value: 0
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Tin_Gravel_Ore:
+        ID: 1488
+        Data_Value: 0
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Aluminum_Gravel_Ore:
+        ID: 1488
+        Data_Value: 0
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Cobalt_Gravel_Ore:
+        ID: 1488
         Data_Value: 0
         XP_Gain: 20
         Drop_Item: false
@@ -21,6 +66,15 @@ Excavation:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
     Gravel_White_stone:
+        ID:  3134
+        Data_Value: 9
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Purified_Dirt:
         ID:  3134
         Data_Value: 9
         XP_Gain: 20
@@ -74,6 +128,24 @@ Herbalism:
 #  Settings for Custom Mining Blocks
 ###
 Mining:
+    Dried_Dirt:
+        ID:  3134
+        Data_Value: 9
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Hardened_Dirt:
+        ID:  3134
+        Data_Value: 9
+        XP_Gain: 20
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
     Tinker_Cobalt:
         ID: 1475
         Data_Value: 1
@@ -89,17 +161,6 @@ Mining:
         ID: 1475
         Data_Value: 2
         XP_Gain: 75
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 4362
-        Drop_Item_Data_Value: 6
-        Min_Drop_Item_Amount: 0
-        Max_Drop_Item_Amount: 1
-    F_Silver:
-        ID: 1002
-        Data_Value: 0
-        XP_Gain: 50
         Is_Ore: true
         Tier: 1
         Drop_Item: false
@@ -240,7 +301,7 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 3
     IC_Uranium:
-        ID: 247
+        ID: 875
         Data_Value: 0
         XP_Gain: 85
         Is_Ore: true
@@ -297,17 +358,6 @@ Mining:
     GT_Bauxite:
         ID: 4060
         Data_Value: 5
-        XP_Gain: 80
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 30243
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    MFFS_Monazit:
-        ID: 688
-        Data_Value: 0
         XP_Gain: 80
         Is_Ore: true
         Tier: 1
@@ -426,17 +476,160 @@ Mining:
         Drop_Item_Data_Value: 5
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 2
-    Factor_Silver:
-        ID: 1002
-        Data_Value: 1
+    Dark_Diamond:
+        ID: 458
+        Data_Value: 2
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 264
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Dark_Emerald:
+        ID: 458
+        Data_Value: 3
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 388
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Dark_Lapis:
+        ID: 458
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 351
+        Drop_Item_Data_Value: 4
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 5
+    Apatite:
+        ID: 1398
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 5258
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 5
+    Amethyst:
+        ID: 458
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21266
+        Drop_Item_Data_Value: 2
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 4
+    Ruby:
+        ID: 458
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21266
+        Drop_Item_Data_Value: 10
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 4
+    Peridot:
+        ID: 458
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21266
+        Drop_Item_Data_Value: 11
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 4
+    Topaz:
+        ID: 458
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21266
+        Drop_Item_Data_Value: 12
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 4
+    Apatite:
+        ID: 458
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21266
+        Drop_Item_Data_Value: 14
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 4
+    Sapphire:
+        ID: 458
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21266
+        Drop_Item_Data_Value: 15
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 4
+    Tanzanite:
+        ID: 458
+        Data_Value: 4
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 21266
+        Drop_Item_Data_Value: 13
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 4
+    Iridium:
+        ID: 4060
+        Data_Value: 2
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: true
+        Drop_Item_ID: 30128
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Tetrahedrite:
+        ID: 4060
+        Data_Value: 13
         XP_Gain: 85
         Is_Ore: true
         Tier: 1
         Drop_Item: false
-        Drop_Item_ID: 21257
-        Drop_Item_Data_Value: 5
+        Drop_Item_ID: 351
+        Drop_Item_Data_Value: 4
         Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 2
+        Max_Drop_Item_Amount: 5
+    Cassiterite:
+        ID: 4060
+        Data_Value: 14
+        XP_Gain: 85
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 351
+        Drop_Item_Data_Value: 4
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 5
 
         
 #
@@ -743,66 +936,6 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    TF_TwiliteOak:
-        ID: 2163
-        Data_Value: 0
-        XP_Gain: 70
-        Is_Log: true
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    TF_CanopyTree:
-        ID: 2163
-        Data_Value: 0
-        XP_Gain: 70
-        Is_Log: true
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    TF_Mangrove:
-        ID: 2163
-        Data_Value: 0
-        XP_Gain: 70
-        Is_Log: true
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    TF_Darkwood:
-        ID: 2163
-        Data_Value: 0
-        XP_Gain: 70
-        Is_Log: true
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    TimeWood:
-        ID: 2176
-        Data_Value: 0
-        XP_Gain: 70
-        Is_Log: true
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    Timewood_clock:
-        ID: 2179
-        Data_Value: 0
-        XP_Gain: 70
-        Is_Log: true
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
     TC_Wood:
         ID: 2404
         Data_Value: 0
@@ -826,6 +959,36 @@ Woodcutting:
     Eucalyptus:
         ID: 3251
         Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Sakura:
+        ID: 3251
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Ghost:
+        ID: 3251
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Hopseed:
+        ID: 3251
+        Data_Value: 3
         XP_Gain: 70
         Is_Log: true
         Drop_Item: false
@@ -904,8 +1067,498 @@ Woodcutting:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
     IC_RubberWood:
-        ID: 243
+        ID: 880
         Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Acacia:
+        ID: 1933
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Cherry:
+        ID: 1933
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Dark:
+        ID: 1933
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Fir:
+        ID: 1933
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Loftwood:
+        ID: 1934
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Magic:
+        ID: 1934
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Mangrove:
+        ID: 1934
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Palm:
+        ID: 1934
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Redwood:
+        ID: 1935
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Willow:
+        ID: 1935
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Dead:
+        ID: 1935
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Apple:
+        ID: 3704
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Fig:
+        ID: 3704
+        Data_Value: 1
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Butternut:
+        ID: 3704
+        Data_Value: 2
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Cherry:
+        ID: 3704
+        Data_Value: 3
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    WhiteBeam:
+        ID: 3704
+        Data_Value: 4
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Rowan:
+        ID: 3704
+        Data_Value: 5
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Hemlock:
+        ID: 3704
+        Data_Value: 6
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Ash:
+        ID: 3704
+        Data_Value: 7
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Alder:
+        ID: 3704
+        Data_Value: 8
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Beech:
+        ID: 3704
+        Data_Value: 9
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Hawthorn:
+        ID: 3704
+        Data_Value: 10
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Banana:
+        ID: 3704
+        Data_Value: 11
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Yew:
+        ID: 3704
+        Data_Value: 12
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Cypress:
+        ID: 3704
+        Data_Value: 13
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Fir:
+        ID: 3704
+        Data_Value: 14
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Hazel:
+        ID: 3704
+        Data_Value: 15
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Hickory:
+        ID: 3704
+        Data_Value: 16
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Elm:
+        ID: 3704
+        Data_Value: 17
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Elder:
+        ID: 3704
+        Data_Value: 18
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Holly:
+        ID: 3704
+        Data_Value: 19
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Hornbeam:
+        ID: 3704
+        Data_Value: 20
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Ceder:
+        ID: 3704
+        Data_Value: 21
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Olive:
+        ID: 3704
+        Data_Value: 22
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Sweetgum:
+        ID: 3704
+        Data_Value: 23
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Locust:
+        ID: 3704
+        Data_Value: 24
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pear:
+        ID: 3704
+        Data_Value: 25
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Maclura:
+        ID: 3704
+        Data_Value: 26
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Brazilwood:
+        ID: 3704
+        Data_Value: 27
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Logwood:
+        ID: 3704
+        Data_Value: 28
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Rosewood:
+        ID: 3704
+        Data_Value: 29
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Purpleheart:
+        ID: 3704
+        Data_Value: 30
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Iroko:
+        ID: 3704
+        Data_Value: 31
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Ginko:
+        ID: 3704
+        Data_Value: 32
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Eucalyptus:
+        ID: 3704
+        Data_Value: 33
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Eucalyptus:
+        ID: 3704
+        Data_Value: 34
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Box:
+        ID: 3704
+        Data_Value: 35
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Syzgium:
+        ID: 3704
+        Data_Value: 36
+        XP_Gain: 70
+        Is_Log: true
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Eucalyptus:
+        ID: 3704
+        Data_Value: 37
         XP_Gain: 70
         Is_Log: true
         Drop_Item: false
