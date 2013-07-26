@@ -2,10 +2,32 @@
 #  Settings for Axes
 ###
 Axes:
+
+
+    Amethyst:
+        ID: 21328
+        XP_Modifer: 1
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Muddy:
+        ID: 21319
+        XP_Modifer: 1
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 3262
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Tinker_Lumber:
         ID: 14317
         XP_Modifer: 0.1
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 3262
@@ -15,7 +37,7 @@ Axes:
     Tinker_Battleaxe:
         ID: 14327
         XP_Modifer: 1.0
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 3262
@@ -62,8 +84,18 @@ Axes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999   
-    IC_Chainsaw:
-        ID: 30233
+    IC_saw:
+        ID: 21375
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999   
+    IC_Adv_saw:
+        ID: 21376
         XP_Modifer: 0.9
         Ability_Enabled: true
         Tier: 1
@@ -75,7 +107,7 @@ Axes:
     Tinker_Hatchet:
         ID: 14309
         XP_Modifer: 1.0
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 99
@@ -125,7 +157,7 @@ Axes:
     Mattock:
         ID: 14316
         XP_Modifer: 1.0
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 10258
@@ -138,6 +170,16 @@ Axes:
 #  Settings for Bows
 ###
 Bows:
+    Tinker_Bow:
+        ID: 14319
+        XP_Modifer: 1.0
+        Ability_Enabled: false
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 12677
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Ghostwood_Bow:
         ID: 12705
         XP_Modifer: 1.0
@@ -183,6 +225,36 @@ Bows:
 #  Settings for Hoes
 ###
 Hoes:
+    Electric_Hoe:
+        ID: 30119
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 14276
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Muddy_Hoe:
+        ID: 21320
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 14276
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Amethyst_Hoe:
+        ID: 21329
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 14276
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Steel_Hoe:
         ID: 7817
         XP_Modifer: 1.0
@@ -237,10 +309,30 @@ Hoes:
 #  Settings for Pickaxes
 ###
 Pickaxes:
+    Muddy:
+        ID: 21318
+        XP_Modifer: 0.1
+        Ability_Enabled: false
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Amethyst:
+        ID: 31327
+        XP_Modifer: 0.1
+        Ability_Enabled: false
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Tinker_Hammer:
         ID: 14326
         XP_Modifer: 0.1
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 99
@@ -267,10 +359,20 @@ Pickaxes:
         Repair_Material_Data_Value: 0
         Repair_Material_Quantity: 9
         Durability: 9999
+    Drill:
+        ID: 21379
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Tinker_Axe:
         ID: 14307
         XP_Modifer: 0.9
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 99
@@ -421,10 +523,40 @@ Pickaxes:
 #  Settings for Shovels
 ###
 Shovels:
+    Muddy:
+        ID: 21317
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Amethyst:
+        ID: 21326
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Drill:
+        ID: 21379
+        XP_Modifer: 0.9
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 99
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Tinker_Excavator:
         ID: 14325
         XP_Modifer: 0.1
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 10258
@@ -434,7 +566,7 @@ Shovels:
     Tinker_Mattock:
         ID: 14316
         XP_Modifer: 1.0
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 10258
@@ -645,10 +777,30 @@ Shovels:
 #  Settings for Swords
 ###
 Swords:
+    Muddy:
+        ID: 21316
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 406
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
+    Amethyst:
+        ID: 21325
+        XP_Modifer: 1.0
+        Ability_Enabled: true
+        Tier: 1
+        Repairable: false
+        Repair_Material_ID: 406
+        Repair_Material_Data_Value: 0
+        Repair_Material_Quantity: 9
+        Durability: 9999
     Tinker_Cleaver:
         ID: 14324
         XP_Modifer: 1.0
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 406
@@ -818,7 +970,7 @@ Swords:
     Tinker_Long:
         ID: 14312
         XP_Modifer: 1.0
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 3262
@@ -828,7 +980,7 @@ Swords:
     Tinker_Broad:
         ID: 14311
         XP_Modifer: 1.0
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 3262
@@ -848,7 +1000,7 @@ Swords:
     Tinker_Rapier:
         ID: 14313
         XP_Modifer: 1.0
-        Ability_Enabled: true
+        Ability_Enabled: false
         Tier: 1
         Repairable: false
         Repair_Material_ID: 3262
